@@ -8,29 +8,29 @@ Even though we’ve all experienced this, whether it be digitally or physically,
 
 <p style="text-align: center;">
 
-*The following reports will be used in this report*:<br>
+*The following reports will be used in this report*:
 “Social Progress Index”
-from the Social Progress Imperative<br>
+from the Social Progress Imperative
 
 “Human Development Index” 
-from the United Nations<br>
+from the United Nations
 
 “World Happiness Index”
-from the Sustainable Development Solutions Network<br>
+from the Sustainable Development Solutions Network
 
 “Global Multidimensional Poverty Index”
-from the Oxford Poverty & Human Development Initiative<br>
-</p>
+from the Oxford Poverty & Human Development Initiative</p>
 
 Each one of these reports is a carefully curated collect of data consisting of a wide scope of variables measuring different aspects of global social indicators. Thanks for the effort of these organizations, we will be able to analytically examine, using predictive and best fit models, what indicators influence communities. But first, it is imperative to analyze who has collected this data and why.
 
 # Critical Reflection: Applying the Seven Principles of Data Feminism to Data
 Catherine D'Ignazio and Lauren F. Klein, in their book, Data Feminism, discuss seven strategies, or principles, for data scientists to keep in mind when handling data through the lens of feminism. In this report, we will follow their protocol and apply their seven concepts of:
-1.) Examining Power
-2.) Challenging Power
-3.) Elevating Emotion/Embodiment 4.) Rethinking Binaries and Hierarchies 5.) Embracing Pluralism
-6.) Considering Context
-7.) Making Labor Visible<br><br>
+-   1.) Examining Power
+-   2.) Challenging Power
+-   3.) Elevating Emotion/Embodiment
+-   4.) Rethinking Binaries and Hierarchies 5.) Embracing Pluralism
+-   6.) Considering Context
+-   7.) Making Labor Visible<br><br>
 
 # Examining Power
 Examining power deals with taking a look at how power operates in the world. They define the term, power, as a way “to describe the current configuration of structural privilege and structural oppression, in which some groups experience unearned advantages—because various systems have been designed by people like them and work for people them—and other groups experience systematic disadvantages—because those same systems were not designed by them or with people like them in mind.” If we apply this concept of power to the organizations that have collected our data, the Matrix of Domination becomes apparent. Each one of these organizations is heavily funded by private companies like Gallop or are simply a branch of a much larger corporation that deals with data collection. Global social indicators are influential enough to determine which countries receive more funding or whether or not they are classified as “3rd World Countries”. These classifications can be considerably damaging to people alive today and creates an imbalance of power as is described in Data Feminism.
