@@ -4,14 +4,23 @@
 
 # Introduction: What is Community?
 In the Age of the Internet, social groups are often formed around shared hobbies or interests, ranging from videogames, to music, to particular websites you enjoy browsing. However, prior to digital connectivity that transcends distance, bonds formed with others was often limited to geographic location and proximity to each another. Every day you would spend time interacting with the same people and begin to form a sense of kinship or community. To me, community is a shared, lived experience. Individuals gather and share ideas, stories, advice and help one another when in need.
-Even though we’ve all experienced this, whether it be digitally or physically, I wondered, “What affects the quality of a community?” In this report, we will be discussing select indicators from various data sources to help elucidate what exactly does influence the quality of a community. The following reports will be used in this report:<br>
+Even though we’ve all experienced this, whether it be digitally or physically, I wondered, “What affects the quality of a community?” In this report, we will be discussing select indicators from various data sources to help elucidate what exactly does influence the quality of a community. 
+
+<p style="text-align: center;">
+
+*The following reports will be used in this report*:<br>
 “Social Progress Index”
 from the Social Progress Imperative<br>
-“Human Development Index” from the United Nations<br>
+
+“Human Development Index” 
+from the United Nations<br>
+
 “World Happiness Index”
 from the Sustainable Development Solutions Network<br>
+
 “Global Multidimensional Poverty Index”
 from the Oxford Poverty & Human Development Initiative<br>
+</p>
 
 Each one of these reports is a carefully curated collect of data consisting of a wide scope of variables measuring different aspects of global social indicators. Thanks for the effort of these organizations, we will be able to analytically examine, using predictive and best fit models, what indicators influence communities. But first, it is imperative to analyze who has collected this data and why.
 
