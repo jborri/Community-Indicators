@@ -5,6 +5,29 @@ o Selected from the World Happiness Index, which defines Social Support as the f
 § "Social support (or having someone to count on in times of trouble) is the national average of the binary responses (either 0 or 1) to the GWP question “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?”
 o The Reasoning behind why this variable was chosen is because the WHI collected data from a similar number of countries that were also analyzed by the other 3 reports, allowing us to better explore the relationship between Social Support and the other indicators. And more importantly, WHI’s definition of Social Support is exactly the kind of metric I would like to explore; how might the other indicators affect how close you are to those around you? What might influence your ability to effectively rely on your community for support?
 
+OLS Regression Results Without MPI
+![alt text](<OLS Model.png>)
+
+Correlation of Indicators without MPI
+![alt text](Corr.png)
+
+OLS Regression Results *with* MPI
+![alt text](<OLS with Poverty.png>)
+
+Correlation of Indicators *with* MPI
+![alt text](Corr_Poverty.png)
+
+Scatter Plot of Indicators with the Lowest P-Value
+![alt text](OLS_SS_CSN.png)
+![alt text](OLS_SS_LL.png)
+
+Matrix of OLS Model without Poverty
+![alt text](OLS_Matrix.png)
+
+Matrix of OLS Model *with* Poverty
+![alt text](OLS_Matrix_Poverty.png)
+
+
 # Analysis of OLS Regression Results
 
 I decided to run the OLS model twice, once with the indicator for Multidimensional Poverty and once without. My reasoning for this is because not only did the MP indicator have a large P- Value, but it also reduced the F-Statistic Significantly. I did see the value of having this indicator as a sort of control variable that prevented the influence of other stronger indicators on the model. The effects of the MP indicator can be seen in the matrix graphs above.
