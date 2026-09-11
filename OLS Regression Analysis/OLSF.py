@@ -1,5 +1,7 @@
 #Importing Libraries
 
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -17,10 +19,12 @@ sns.set(style="white")
 sns.set(style="whitegrid", color_codes=True)
 import scipy.stats as scp
 
+DATA_DIR = Path(__file__).resolve().parent
+
 #Reading in data from Social Progress Index (2015)
 
 SPIndex = pd.read_excel(
-    '/Users/jborri/Documents/GitHub/Community-Indicators/OLS Regression Analysis/2015 Social Progress Index Data.xlsx',
+    DATA_DIR / '2015 Social Progress Index Data.xlsx',
     index_col='Country',
     na_values=['NA']
       )
@@ -29,7 +33,7 @@ SPIndex.head()
 #Reading in data from Human Development Index (United Nations- 2015)
 
 UNHDIndex = pd.read_excel(
-    '//Users/jborri/Documents/GitHub/Community-Indicators/OLS Regression Analysis/HumanDevelopment.xlsx',
+    DATA_DIR / 'HumanDevelopment.xlsx',
     index_col='Country',
     na_values=['NA']
 )
@@ -38,7 +42,7 @@ UNHDIndex.head()
 #Reading in data from World Happiness Report (2019)
 
 WHRIndex = pd.read_excel(
-    '/Users/jborri/Documents/GitHub/Community-Indicators/OLS Regression Analysis/WHINDEX2019.xls',
+    DATA_DIR / 'WHINDEX2019.xls',
     index_col='Country',
     na_values=['NA']
 )
@@ -47,7 +51,7 @@ WHRIndex.head()
 #Reading in data from Multidimensional Poverty Index (United Nations 2015)
 
 MPIndex = pd.read_csv(
-    '/Users/jborri/Documents/GitHub/Community-Indicators/OLS Regression Analysis/multidimensional_poverty.csv',
+    DATA_DIR / 'multidimensional_poverty.csv',
     index_col='Country',
     na_values=['NA']
 )
